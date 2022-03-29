@@ -29,7 +29,7 @@ Dans cette section vous trouverez une description des projets sur lequels j'ai t
 
 Dans le dossier **Computer Vision** ➡ **Image Classification** vous trouverez les projets suivants : 
 
-* mnist : l'objectif de ce projet est de faire la reconnaissance de chiffres manuscrits, nous avons implémenté et comparé différentes approches, notamment l'algorithme des k plus proches voisins, les arbres de décision, les machine à support de vecteur et les réseaux de neurones. Pour les réseaux de neurones nous avons utilisé une architecture réduite de Xception (Xception est une très bonne architecture pour les tâches de classification) et on a réussi à atteindre une précision de 98.98% (almost 99%).
+* <font color="brown">mnist </font>: l'objectif de ce projet est de faire la reconnaissance de chiffres manuscrits, nous avons implémenté et comparé différentes approches, notamment l'algorithme des k plus proches voisins, les arbres de décision, les machine à support de vecteur et les réseaux de neurones. Pour les réseaux de neurones nous avons utilisé une architecture réduite de Xception (Xception est une très bonne architecture pour les tâches de classification) et on a réussi à atteindre une précision de 98.98% (almost 99%).
 
 * projet 2 :  
 
