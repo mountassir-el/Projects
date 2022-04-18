@@ -31,7 +31,6 @@ Dans le dossier **Computer Vision** ➡ **Image Classification** vous trouverez 
 
 * **mnist**: l'objectif de ce projet est de faire la reconnaissance de chiffres manuscrits, nous avons implémenté et comparé différentes approches, notamment l'algorithme des k plus proches voisins, les arbres de décision, les machine à support de vecteur et les réseaux de neurones. Pour les réseaux de neurones nous avons utilisé une architecture réduite de Xception (Xception est une très bonne architecture pour les tâches de classification) et on a réussi à atteindre une précision de 98.98% (almost 99%).
 
-* projet 2 :  
-
+* **covid**: l'objectif de ce projet est de décider à partir de l'image x-ray des poumons d'une personne, si cette personne a le covid, la pneumonie ou s'elle est saine. dans un premier temps, nous avons implémenté un modèle de réseaux de neurones simples (précision faible : 20%), puis nous avons ajouté à ce dernier une couche VGG16 d'**extraction de caractéristiques (feature extraction)**, avec cette dernière notre modèle a atteint une précision de plus de 88% en moins d'epochs, ce qui montre l'intérêt de l'extraction des caractéristiques. Finalement nous avons implementé le fameux **EfficientNetB2** qui nous a permi d'atteindre (sans feature extraction) une précision de 91%.
 
 
