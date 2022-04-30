@@ -1,11 +1,11 @@
 # Ignore the model weights
-**/*.h5
-**/*.pth
+*.h5
+*.pth
 
 # Ignore the dataset
-**/dataset
-**/dataset.*
+dataset
+dataset*
 
 # Ignore the outputs
-**/output
-**/output*
+output
+output*
