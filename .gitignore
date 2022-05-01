@@ -9,3 +9,6 @@ dataset*
 # Ignore the outputs
 output
 output*
+
+# Ignore environment
+environment
