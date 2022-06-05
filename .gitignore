@@ -2,14 +2,19 @@
 *.h5
 *.pth
 *.zip
+*.bz2
 
 # Ignore the dataset
 dataset
 dataset*
+*dataset
+data
+
 
 # Ignore the outputs
 output
 output*
+*output
 
 # Ignore environment
 environment
