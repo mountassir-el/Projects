@@ -13,3 +13,6 @@ output*
 
 # Ignore environment
 environment
+.venv
+__pycache__
+
