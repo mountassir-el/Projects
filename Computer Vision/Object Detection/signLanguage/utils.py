@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from config import DEVICE, CLASSES, RESIZE_TO
-
 import albumentations as A
 import matplotlib.pyplot as plt
 import torchvision.transforms as T
@@ -15,6 +14,11 @@ class Utils:
         pass
 
     def train_transforms():
+        """The train transformations.
+
+        :return: Returns a composition of data augmentation transformations.
+        :rtype: Albumentation.Compose
+        """
         transforms = [
             A.Resize(RESIZE_TO, RESIZE_TO),
             A.Flip(p=0.7),
@@ -25,6 +29,11 @@ class Utils:
         return A.Compose(transforms, bbox_params= A.BboxParams(format='pascal_voc', label_fields=['labels']))
 
     def test_transforms():
+        """The test transformations.
+
+        :return: Returns a composition of data augmentation transformations.
+        :rtype: Albumentation.Compose
+        """
         transforms = [
             A.Resize(RESIZE_TO, RESIZE_TO),
             ToTensorV2()

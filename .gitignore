@@ -4,13 +4,15 @@
 *.zip
 *.bz2
 *.avi
-
+env
+venv
+.env
+.venv
 # Ignore the dataset
 dataset
 dataset*
 *dataset
 data
-
 
 # Ignore the outputs
 output
