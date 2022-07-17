@@ -3,6 +3,7 @@
 *.pth
 *.zip
 *.bz2
+*.avi
 
 # Ignore the dataset
 dataset
